@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import WebTorrent from 'webtorrent';
+
 
 const TorrentPlayer = ({ initialMagnetLink = '' }) => {
     const [magnetLink, setMagnetLink] = useState(initialMagnetLink);
